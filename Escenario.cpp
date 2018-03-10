@@ -28,3 +28,6 @@ void Escenario::EliminarBomba(){
 		}
 	}
 }
+void Escenario::setItem(Item* hola,int x,int y){
+	tablero[x][y]=hola;
+}

@@ -17,6 +17,7 @@ class Escenario{
 		void EliminarBomba();
 		void setBombas(Bombas*);
 		Escenario();
+		void setItem(Item*,int,int);
 		Escenario(string);
 		string getNombre();
 };
